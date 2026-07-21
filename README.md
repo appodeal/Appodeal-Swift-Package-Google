@@ -9,11 +9,9 @@ Add this repository URL to your Package.swift or Xcode project:
 https://github.com/appodeal/Appodeal-Swift-Package-Google
 ```
 
-## Product Names
+## Product Name
 
-This package provides two product names for compatibility:
-- `AppodealGoogleAdMobAdapter` - Primary product name
-- `APDGoogleAdMobAdapter` - Legacy compatibility alias
+This package provides the product `APDGoogleAdMobAdapter` which is required for runtime compatibility with the Appodeal SDK.
 
 ## Requirements
 - iOS 15.0+

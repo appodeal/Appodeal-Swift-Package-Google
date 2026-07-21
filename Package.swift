@@ -6,11 +6,7 @@ let package = Package(
     name: "AppodealGoogleAdMobAdapter",
     platforms: [.iOS(.v15)],
     products: [
-        // Main product name matching repository naming convention
-        .library(
-            name: "AppodealGoogleAdMobAdapter",
-            targets: ["AppodealGoogleAdMobAdapterWrapper"]),
-        // Alias for compatibility with APD prefix
+        // Product must be named APDGoogleAdMobAdapter for runtime class discovery
         .library(
             name: "APDGoogleAdMobAdapter",
             targets: ["AppodealGoogleAdMobAdapterWrapper"]),

@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "AppodealGoogleAdMobAdapterWrapper",
             dependencies: [
-                .product(name: "Appodeal", package: "Appodeal-Swift-Package"),
+                .product(name: "AppodealSDK", package: "Appodeal-Swift-Package"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 .target(name: "APDGoogleAdMobAdapter"),
             ],

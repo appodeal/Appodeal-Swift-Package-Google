@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "APDGoogleAdMobAdapter",
-            url: "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/SPM/APDGoogleAdMobAdapter/13.5.0.0/APDGoogleAdMobAdapter.xcframework.zip",
-            checksum: "fc809a5ad34abfef325ca2c52f62e522b5937adcb0ec42b605b230ce53182b7a"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/APDGoogleAdMobAdapter/13.5.0.0/APDGoogleAdMobAdapter.xcframework.zip",
+            checksum: "b46d3b4cc3f9fc037aae8b7de2be8638075ef26799d2a06f8ed65cbd4cff1236"
         ),
     ]
 )

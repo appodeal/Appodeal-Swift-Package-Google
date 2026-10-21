@@ -3,21 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "AppodealGoogleAdMobAdapter",
+    name: "APDGoogleAdMobAdapter",
     platforms: [.iOS(.v15)],
     products: [
-        // Product must be named APDGoogleAdMobAdapter for runtime class discovery
         .library(
             name: "APDGoogleAdMobAdapter",
-            targets: ["AppodealGoogleAdMobAdapterWrapper"]),
+            targets: ["APDGoogleAdMobAdapterWrapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.3.0")),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "13.5.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", from: "13.5.0"),
     ],
     targets: [
         .target(
-            name: "AppodealGoogleAdMobAdapterWrapper",
+            name: "APDGoogleAdMobAdapterWrapper",
             dependencies: [
                 .product(name: "AppodealSDK", package: "Appodeal-Swift-Package"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
@@ -28,8 +27,9 @@ let package = Package(
         ),
         .binaryTarget(
             name: "APDGoogleAdMobAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/APDGoogleAdMobAdapter/13.5.0.0/APDGoogleAdMobAdapter.xcframework.zip",
-            checksum: "b46d3b4cc3f9fc037aae8b7de2be8638075ef26799d2a06f8ed65cbd4cff1236"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/APDGoogleAdMobAdapter/13.5.0.3/1dbc3c938f2c/APDGoogleAdMobAdapter.xcframework.zip",
+            checksum: "1dbc3c938f2c0d87c1fe8141b93e4f7f6ac856227048e699942525dc56bd5c99"
         ),
+
     ]
 )

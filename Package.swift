@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.3.0")),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", from: "13.5.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", from: "13.12.0"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "APDGoogleAdMobAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/APDGoogleAdMobAdapter/13.5.0.5/0ae82d730966/APDGoogleAdMobAdapter.xcframework.zip",
-            checksum: "0ae82d7309667e5a4fa4baf226f4ab02b7e6a7d90b7bdba83540e2aacc07654d"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/APDGoogleAdMobAdapter/13.12.0.0/6d9d9cd761d6/APDGoogleAdMobAdapter.xcframework.zip",
+            checksum: "6d9d9cd761d63eef2df4632b3783efb1a7f32dd8db3ffbf352f578381bb6fa27"
         ),
 
     ]
